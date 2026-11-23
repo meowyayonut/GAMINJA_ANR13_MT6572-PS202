@@ -16,7 +16,14 @@
 
 ## 📌 Overview & Background
 
-If you own a **MediaTek MT6572** device based on the **PS202 / ANR13** platform (`ps202_ans13_yl72_cwet_kk`, running Android 4.4.2 KitKat) and ended up with a hard-bricked device, a bootloop, or corrupted eMMC partitions, this guide is for you.
+This firmware is for the GAMINJA ANR13, another R36S clone trying to fake its way into existence. Under the hood, it runs a MediaTek MT6572, even though the silkscreen on the chip claims it's a Qualcomm. It also only comes with 512MB of RAM instead of the expected 1GB.
+
+The stock setup is locked down pretty tight. There's no way to break out of the launcher into standard Android settings to make system changes, ADB is disabled at boot, and even if you manage to turn it on, adbd blocks root access.
+
+This dump is based on the PS202 / ANR13 platform (ps202_ans13_yl72_cwet_kk, running Android 4.4.2 KitKat) and was pulled directly from a board labeled PS202_6GEN1_MB_V12.
+
+It's a full firmware image that can fix broken preloaders, messed-up partition tables, bootloops, or whatever else you might have broken while tinkering. I've also included scripts with mtkclient patches that handle writing the images to the device, which makes the flashing process a whole lot easier.
+
 
 This release provides:
 1. **Full 1:1 Factory eMMC Raw Dumps** (`boot1.bin`, `boot2.bin`, `user.bin`) to completely restore an eMMC from scratch.
