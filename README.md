@@ -55,7 +55,7 @@ Place your factory dumps and patched boot files in your working directory:
 | :--- | :--- | :--- |
 | `boot1.bin` | 2.0 MB | Hardware Boot Partition 1 (Native Preloader with EMI v11) |
 | `boot2.bin` | 2.0 MB | Hardware Boot Partition 2 |
-| `[user.bin](https://buzzheavier.com/3800u4g6wxtp)` | 3.7 GB | Full eMMC raw user dump (MBR, PMT, system, data, cache) |
+| `user.bin` | 3.7 GB | Full eMMC raw user dump (MBR, PMT, system, data, cache) |
 | `BOOTIMG.bin` | 6.0 MB | Stock untouched Android 4.4.2 Boot Image |
 | `bootimg_adb_root.bin` | 4.0 MB | Modified Boot Image (`default.prop` + patched `sbin/adbd` root) |
 
