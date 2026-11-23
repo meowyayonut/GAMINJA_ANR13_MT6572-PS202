@@ -108,7 +108,7 @@ If you run `adb root`, `adbd` sets `service.adb.root=1` and calls `exit(1)`, but
 
 If your device is hard-bricked, in a bootloop, or has a destroyed partition table:
 
-1. Connect the MT6572 device in **BROM mode** (power off, hold Volume Up or test-point, and plug USB cable into PC). `lsusb` should show:
+1. Connect the MT6572 device in **BROM mode** (power off, hold power + reset + volume up + down and plug USB cable into PC). `lsusb` should show:
    ```
    Bus 001 Device 026: ID 0e8d:0003 MediaTek Inc. MT6227 phone
    ```
