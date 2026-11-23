@@ -20,6 +20,7 @@ If you own a **MediaTek MT6572** device based on the **PS202 / ANR13** platform 
 
 This release provides:
 1. **Full 1:1 Factory eMMC Raw Dumps** (`boot1.bin`, `boot2.bin`, `user.bin`) to completely restore an eMMC from scratch.
+   
    1a. [user.bin is too large to be uploaded on GitHub, use this direct link](https://buzzheavier.com/3800u4g6wxtp)
 3. **The 0x0B EMI Handshake Fix**: Solves the dreaded DA hang when using `mtkclient` / open-source MTK flashing utilities on MT6572.
 4. **The Modern ADB Freeze Fix**: Solves the mysterious `adb shell` / `adb root` timeout when running modern platform-tools on Linux.
