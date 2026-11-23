@@ -472,3 +472,5 @@ uid=0(root) gid=0(root) groups=1003(graphics),1004(input),1007(log),1011(adb),10
 
 * **bkerler** for the invaluable `mtkclient` project
 * **MediaTek** for the indestructible BROM fallback
+* **Gemini 4 Neon** for constructing most of the modifications here
+* **Gemini 3.8 Flash** for not being a little bitch like Neon by not refusing to generate a basic guide after the fact
