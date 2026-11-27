@@ -29,7 +29,7 @@ It's a full firmware image that can fix broken preloaders, messed-up partition t
 **This release provides:**
 1. **Full 1:1 Factory eMMC Raw Dumps** (`boot1.bin`, `boot2.bin`, `user.bin`) to completely restore an eMMC from scratch.
    
-   1a. [user.bin is too large to be uploaded on GitHub, use this direct link](https://buzzheavier.com/3800u4g6wxtp)
+   1a. [user.bin is too large to be uploaded on GitHub, use this direct link](https://buzzheavier.com/3800u4g6wxtp)**Some how this was deleted off of the host, will replace soon**
 3. **The 0x0B EMI Handshake Fix**: Solves the dreaded DA hang when using `mtkclient` / open-source MTK flashing utilities on MT6572.
 4. **The Modern ADB Freeze Fix**: Solves the mysterious `adb shell` / `adb root` timeout when running modern platform-tools on Linux.
 5. **Permanent Boot-Time Root (`sbin/adbd` 2-byte patch)**: Bypasses production `ALLOW_ADBD_ROOT=0` build restrictions directly inside the ramdisk binary, giving you native `uid=0(root)` with full capabilities on every boot.
